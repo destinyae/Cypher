@@ -1,12 +1,17 @@
 [submodule "contracts"]
 	path = contracts
+<<<<<<< HEAD
 	url = https://github.com/OffchainLabs/nitro-contracts
+=======
+	url = https://github.com/OffchainLabs/nitro-contracts.git
+>>>>>>> 3883630 (Re-add all submodules cleanly)
 [submodule "fastcache"]
 	path = fastcache
 	url = https://github.com/OffchainLabs/fastcache
 [submodule "fhevm-go"]
 	path = fhevm-go
 	url = git@github.com:z1labs/Cypher-fhEVM-Go.git
+<<<<<<< HEAD
 [submodule "nitro-testnode"]
 	path = nitro-testnode
 	url = https://github.com/OffchainLabs/nitro-testnode
@@ -16,3 +21,11 @@
 [submodule "go-ethereum"]
 	path = go-ethereum
 	url = git@github.com:z1labs/Cypher-Go-Ethereum.git
+=======
+[submodule "go-ethereum"]
+	path = go-ethereum
+	url = git@github.com:z1labs/Cypher-Go-Ethereum.git
+[submodule "nitro-testnode"]
+	path = nitro-testnode
+	url = https://github.com/OffchainLabs/nitro-testnode
+>>>>>>> 3883630 (Re-add all submodules cleanly)
