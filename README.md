@@ -33,7 +33,7 @@ The FHE-EVM integration supports encrypted data processing within smart contract
 - [Documentation](#documentation)
 
 ## Overview
-The purpose of homomorphic encryption is to allow computation on encrypted data. Thus data can remain confidential while it is processed, enabling useful tasks to be accomplished with data residing in untrusted environments. In a world of distributed computation and heterogeneous networking this is extremely valuable.
+Homomorphic encryption enables computations to be performed directly on encrypted data, preserving its confidentiality throughout the process. This allows valuable operations to be conducted on sensitive information even within untrusted environments. In the context of distributed computing and diverse networks, such capabilities are invaluable for maintaining privacy while achieving functionality.
 
 A homomorphic cryptosystem functions similarly to other types of public encryption in the sense that it utilizes a public key to encrypt data and only permits the person with the corresponding private key to access the unencrypted data. Its distinctiveness, however, lies in its use of an algebraic system that enables a range of computations (or operations) on the encrypted data.
 
@@ -247,3 +247,6 @@ Check the documetation for a step by step guide how to run own
 [Build and deploy smart contracts]: <https://github.com/z1labs/Cypher>
 
 [Use Metamask Cypher snap to for an easy access to decryption service]: <https://github.com/z1labs/Cypher>
+
+### License
+
