@@ -155,11 +155,8 @@ In this system, separate gateway nodes act as decryptors. Upon request, they ver
   
 
 #
+  ![Async Decrypt](https://github.com/user-attachments/assets/0b3d11db-e95f-45e1-af78-6cce89f0216d?width=400&dpr=3&quality=100)
 
-![Async Decrypt](https://docs.zama.ai/~gitbook/image?url=https%3A%2F%2F4221220623-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252FdjZLXIKWOxfECtlEOsO1%252Fuploads%252Fgit-blob-6658c0482a3f2f8329eb01b1938491ed402d35c5%252FasyncDecrypt.png%3Falt%3Dmedia&width=400&dpr=3&quality=100&sign=88438dae&sv=1)
-
-  
-  
 
 > 💡 **Attention**:: The decryption operation is asynchronous. To use it, your contract must extend the GatewayCaller contract. This will import automatically the Gateway solidity library as well.
 
