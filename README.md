@@ -33,9 +33,9 @@ The FHE-EVM integration supports encrypted data processing within smart contract
 - [Documentation](#documentation)
 
 ## Overview
-The purpose of homomorphic encryption is to allow computation on encrypted data. Thus data can remain confidential while it is processed, enabling useful tasks to be accomplished with data residing in untrusted environments. In a world of distributed computation and heterogeneous networking this is extremely valuable.
+Homomorphic encryption is fundamentally designed to enable direct computation on data while it remains encrypted. This means the information can stay confidential throughout its processing, allowing valuable tasks to be conducted even when working with data stored in untrusted or distributed environments. In today’s world of distributed computing and heterogeneous networks, this capability is exceptionally important.
 
-A homomorphic cryptosystem functions similarly to other types of public encryption in the sense that it utilizes a public key to encrypt data and only permits the person with the corresponding private key to access the unencrypted data. Its distinctiveness, however, lies in its use of an algebraic system that enables a range of computations (or operations) on the encrypted data.
+A homomorphic cryptosystem shares similarities with other public-key encryption methods: it uses a public key for encryption and restricts decryption to the private key holder. Its key distinction, however, lies in its algebraic framework, which makes it possible to carry out various types of computations on the encrypted data itself.
 
 
 
@@ -124,7 +124,7 @@ In this system, separate gateway nodes act as decryptors. Upon request, they ver
 
 -  **Ciphertext Retrieval:** The smart contract implements a view function (e.g., balanceOf) to return the encrypted data (ciphertext) that needs to be re-encrypted. This ciphertext is initially encrypted with the FHE blockchain key.
 
--  **Client-Side Setup:** The dApp initiates a connection to the FHEVM network via fhevmjs and generates a NaCl keypair (public and private keys) to be used for the re-encryption process.
+-  **Client-Side Setup:** The dApp initiates a connection to the FHEVM network via fhevmjs and generates a  public and private keys to be used for the re-encryption process.
 
 -  **EIP712 Signature:** The dApp creates an EIP712 object containing the public key and contract details, which the user must sign. This ensures the re-encryption process is authorized by the user.
 
