@@ -33,14 +33,14 @@ The FHE-EVM integration supports encrypted data processing within smart contract
 - [Documentation](#documentation)
 
 ## Overview
-Homomorphic encryption is fundamentally designed to enable direct computation on data while it remains encrypted. This means the information can stay confidential throughout its processing, allowing valuable tasks to be conducted even when working with data stored in untrusted or distributed environments. In today’s world of distributed computing and heterogeneous networks, this capability is exceptionally important.
+Homomorphic encryption is fundamentally designed to enable direct computation of data while it remains encrypted. This means the information can stay confidential throughout its processing, allowing valuable tasks to be conducted even when working with data stored in untrusted or distributed environments. In today’s world of distributed computing and heterogeneous networks, this capability is exceptionally important.
 
 A homomorphic cryptosystem shares similarities with other public-key encryption methods: it uses a public key for encryption and restricts decryption to the private key holder. Its key distinction, however, lies in its algebraic framework, which makes it possible to carry out various types of computations on the encrypted data itself.
 
 
 
 ### Why Is This a Revolution? - Because It Enables Decentralized Blockchain Scaling with Encrypted Transactions!
-Previously, encrypted transactions were difficult to process at scale because nodes couldn't perform computations on encrypted data. Homomorphic encryption solves this by allowing computations on encrypted transactions without needing to reveal the underlying data. This is revolutionary because the nodes no longer require the private key used to encrypt the information in order to process it. As a result, blockchain networks can scale in a fully decentralized manner while maintaining the confidentiality of the data.
+Previously, encrypted transactions were difficult to process at scale because nodes couldn't perform computations on encrypted data. Homomorphic encryption solves this by allowing computations on encrypted transactions without needing to reveal the underlying data. This is revolutionary because the nodes no longer require the private key used to encrypt the information to process it. As a result, blockchain networks can scale in a fully decentralized manner while maintaining the confidentiality of the data.
 
 In this system, separate gateway nodes act as decryptors. Upon request, they verify user access, decrypt the data, re-encrypt it with the user's public key for secure transmission, and deliver it back. The user can then decrypt the data using their private key, preserving confidentiality throughout the process.
 
@@ -124,7 +124,7 @@ In this system, separate gateway nodes act as decryptors. Upon request, they ver
 
 -  **Ciphertext Retrieval:** The smart contract implements a view function (e.g., balanceOf) to return the encrypted data (ciphertext) that needs to be re-encrypted. This ciphertext is initially encrypted with the FHE blockchain key.
 
--  **Client-Side Setup:** The dApp initiates a connection to the FHEVM network via fhevmjs and generates a  public and private keys to be used for the re-encryption process.
+-  **Client-Side Setup:** The dApp initiates a connection to the FHEVM network via fhevmjs and generates a public and private key to be used for the re-encryption process.
 
 -  **EIP712 Signature:** The dApp creates an EIP712 object containing the public key and contract details, which the user must sign. This ensures the re-encryption process is authorized by the user.
 
@@ -232,7 +232,7 @@ TFHE.allowThis(value8);
 
 ### Documentation
 
-Check the documetation for a step by step guide how to run own
+Check the documentation for a step-by-step guide on how to run your own
 
 - [Build and deploy smart contracts]
 
@@ -243,4 +243,4 @@ Check the documetation for a step by step guide how to run own
 
 [Build and deploy smart contracts]: <https://github.com/z1labs/Cypher>
 
-[Use Metamask Cypher snap to for an easy access to decryption service]: <https://github.com/z1labs/Cypher>
+[Use Metamask Cypher snap for easy access to decryption service]: <https://github.com/z1labs/Cypher>
