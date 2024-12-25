@@ -232,7 +232,7 @@ TFHE.allowThis(value8);
 
 ### Documentation
 
-Check the documetation for a step by step guide how to run own
+Check the documentation for a step-by-step guide on how to run your own
 
 - [Build and deploy smart contracts]
 
@@ -243,4 +243,4 @@ Check the documetation for a step by step guide how to run own
 
 [Build and deploy smart contracts]: <https://github.com/z1labs/Cypher>
 
-[Use Metamask Cypher snap to for an easy access to decryption service]: <https://github.com/z1labs/Cypher>
+[Use Metamask Cypher snap for easy access to decryption service]: <https://github.com/z1labs/Cypher>
